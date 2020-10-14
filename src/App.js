@@ -3,8 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     TAKE IT 
+    //BEM
+    <div className="app">
+     TAKE IT, create full stack app 
     </div>
   );
 }
