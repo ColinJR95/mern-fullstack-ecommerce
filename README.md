@@ -1,1 +1,1 @@
-Full stack app created with MEARN
+Full stack app created with MERN
