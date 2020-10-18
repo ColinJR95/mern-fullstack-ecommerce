@@ -41,7 +41,11 @@
 }
 
 
+.header_nav {
+	display: flex;
+	justify-content: space-evenly;
 
+}
 
 
 .nav_options {
@@ -51,4 +55,14 @@
 	margin-right: 10px;
 	color: white;
 
+}
+
+.nav_optionLineOne {
+	font-size: 10px;
+
+}
+
+.nav_optionLineTwo {
+	font-size: 13px;
+	font-weight: 800;
 }
