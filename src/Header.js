@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 function Header() {
 	return (
@@ -42,8 +42,11 @@ function Header() {
 				</div>
 				 
 
-				 <div className="nav_options">
-				 <ShoppingCartIcon/>
+				 <div className="nav_options_basket">
+				 <ShoppingBasketIcon/>
+				 <span className="nav__optionLineTwo nav_basketCount" >
+				 0
+				 </span>
 				</div>
 
 
