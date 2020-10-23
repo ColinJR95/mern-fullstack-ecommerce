@@ -15,12 +15,12 @@ function Product({id, title, image, price, rating}) {
 		            		.fill()
 		            		.map((_, i) => (
 		             		 <p>🌟</p>
-		            ))}
+		             ))}
 		        </div>
 			</div>
 			<img src={image} alt="" />
 			<button>Add to Basket</button>
-		</div>
+		</div> 
 	)
 }
 
