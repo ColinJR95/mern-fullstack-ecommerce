@@ -17,7 +17,7 @@ function App() {
       <Switch>
         <Route path="/checkout"> 
         <Header/>
-        yooooo yoo
+        yooooo yooyoo
         <Checkout/>
         </Route>
         <Route path="/">
