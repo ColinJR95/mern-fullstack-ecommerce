@@ -16,8 +16,8 @@ function App() {
        <Router>
       <Switch>
         <Route path="/checkout"> 
-        <Header/>
-        yooooo yooyoo
+        <Header/>git 
+        yooooo yooyoo change this   
         <Checkout/>
         </Route>
         <Route path="/">
