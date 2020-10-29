@@ -14,14 +14,12 @@ function App() {
 
 
        <Router>
+       <Header />
       <Switch>
-        <Route path="/checkout"> 
-        <Header/>git 
-        yooooo yooyoo change this   
+        <Route path="/checkout">  
         <Checkout/>
         </Route>
         <Route path="/">
-            <Header />
             <Home />
         </Route>
       </Switch>
