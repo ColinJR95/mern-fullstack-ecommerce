@@ -4,9 +4,8 @@ import Product from './Product';
 
 
 function Home() {
-	return (
-
-		<div className="home">
+    return (
+<div className="home">
 
 			<div className="home_container">
 				<img
@@ -66,7 +65,7 @@ function Home() {
 	        </div>
 
 		</div>
-	)
-}
+		
+		)}
 
 export default Home
