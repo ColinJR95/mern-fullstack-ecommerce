@@ -47,17 +47,18 @@
     font-size: 12px;
 }
 
-.login__signInButton {
-    background: #f0c14b;
+.login_signInButton {
+    background: purple;
     border-radius: 2px;
     width: 100%;
     height: 30px;
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
+    color: white;
   }
 
-  .login__registerButton {
+  .login_registerButton {
     border-radius: 2px;
     width: 100%;
     height: 30px;
