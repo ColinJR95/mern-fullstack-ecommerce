@@ -26,7 +26,7 @@ function App() {
               user: authUser
             })
           } else {
-            // the user is logged out right now
+            // the user is logged out right now needs t0 set user
             dispatch({
               type: 'SET_USER',
               user: null
