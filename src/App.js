@@ -11,6 +11,7 @@ import {useStateValue} from './StateProvider';
 
 
 function App() {
+  // bem 
     const [{}, dispatch] = useStateValue();
    
     useEffect(() => {
@@ -26,7 +27,7 @@ function App() {
               user: authUser
             })
           } else {
-            // the user is logged out right now needs t0 set user
+            // the user is logged out right now needs t0 set user 
             dispatch({
               type: 'SET_USER',
               user: null
