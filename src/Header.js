@@ -14,13 +14,12 @@ function Header() {
 			auth.signOut();
 		}
 	}
-
 	return (
 
 		<div className='header'>
 			<Link to='/'>
 				<img className="header_logo" 
-				src='https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/120848646_120240026502211_2460028825837157574_o.png?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=jwJ1HMcQwVQAX9h8Hi9&_nc_ht=scontent-lax3-1.xx&oh=197c20a16dec457f09e806fd9402cc2d&oe=5FAE79C9' 
+				src='https://i.pinimg.com/280x280_RS/10/3e/42/103e42bdfc2d8899cfe1cecc8091f276.jpg' 
 				alt="this is the logo"
 				/>
 
